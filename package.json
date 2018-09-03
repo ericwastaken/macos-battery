@@ -17,6 +17,9 @@
   ],
   "author": "E.A.Soto, easoto@iss-pr.com",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericwastaken/macos-battery/issues"
+  },
   "dependencies": {
     "exec-sh": "^0.2.2",
     "macos-version": "^4.1.0"
