@@ -42,10 +42,15 @@ macOsBattery.getBatteryChargeState()
 //=> Battery charge state is 'discharging'.
 //=> Battery charge state is 'charging'.
 //=> Battery charge state is 'finishing charge'.
+//=> Battery charge state is 'no battery'.
+//=> Battery charge state is 'undetermined'.
 
      
 ```
 
+## Requirements
+
+This package supports macOS 10.11 or newer. Please report if this works on older versions of macOS via issues so that we can upate the requirements check.
 
 ## API
 
