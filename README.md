@@ -78,6 +78,10 @@ Returns a promise that resolves to a string with any of the following:
 
 This method can reject with an error.
 
+## Under the Hood
+
+This package uses macOs's `pmset -g batt` command to get status from the OS. However, the output is processed to safely meet the needs of the exposed API.
+
 ## License
 
 MIT © [Eric A. Soto](https://ericsoto.net/)
