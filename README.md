@@ -1,6 +1,6 @@
 # macos-battery
 
-> When running on macOs, gets the battery charge percentage and battery charge status.
+> When running on a macOs device with a battery, gets the battery charge percentage and battery charge status.
 
 
 ## Install
@@ -51,6 +51,10 @@ macOsBattery.getBatteryChargeState()
 ## Requirements
 
 This package supports macOS 10.11 or newer. Please report if this works on older versions of macOS via issues so that we can upate the requirements check.
+
+## Limitations
+
+At present, the API returns status of the primary device's battery. Are there Macs with multiple batteries? Open an issue and let us know!
 
 ## API
 
