@@ -26,7 +26,7 @@ macOsBattery.getBatteryChargePercent()
     console.log(`error: ${err}.`);
   });
 
-// Possible Returns:
+// Example Return Values:
 //=> Battery charge can't be determined. Possibly running on a device with no battery.
 //=> Battery charge is 100%.
 
@@ -37,7 +37,7 @@ macOsBattery.getBatteryChargeState()
   console.log(`error: ${err}.`);
 });
 
-// Possible Returns:
+// Example Return Values:
 //=> Battery charge state is 'charged'.
 //=> Battery charge state is 'discharging'.
 //=> Battery charge state is 'charging'.
@@ -45,7 +45,15 @@ macOsBattery.getBatteryChargeState()
 //=> Battery charge state is 'no battery'.
 //=> Battery charge state is 'undetermined'.
 
-     
+macOsBattery.getBatteryStateObject()
+    .then(batteryState => {
+      console.log(`Battery charge is '${batteryState.percent}'.`);
+      console.log(`Battery charge state is '${batteryState.state}'.`);
+    }).catch(err => {
+  console.log(`error: ${err}.`);
+});
+
+// Returns the same as the two above APIs but in a single call.
 ```
 
 ## Requirements
