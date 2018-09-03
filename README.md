@@ -54,6 +54,8 @@ This package supports macOS 10.11 or newer. Please report if this works on older
 
 ## API
 
+This package is non-blocking and returns promises.
+
 ### getBatteryChargePercent()
 
 Returns a promise that resolves to an integer representing the battery charge percent. If no battery is present or the value can't be determined, this will resolve to -1.
