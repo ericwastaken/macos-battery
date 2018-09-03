@@ -5,7 +5,7 @@
     "url": "https://github.com/ericwastaken/macos-battery.git"
   },
   "version": "1.0.0",
-  "description": "Returns battery percent charge and charging status for macOS.",
+  "description": "When running on a macOs device with a battery, gets the battery charge percentage and battery charge status.",
   "main": "lib/macos-battery.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,11 +15,8 @@
     "battery charge state",
     "battery charge percent"
   ],
-  "author": "E.A.Soto, eric@issfl.com",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/ericwastaken/macos-battery.git/blob/master/LICENSE"
-  },
+  "author": "E.A.Soto, easoto@iss-pr.com",
+  "license": "MIT",
   "dependencies": {
     "exec-sh": "^0.2.2",
     "macos-version": "^4.1.0"
