@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/ericwastaken/macos-battery.git"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "When running on a macOs device with a battery, gets the battery charge percentage and battery charge status.",
   "main": "lib/macos-battery.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "macOS battery",
     "battery charge state",
-    "battery charge percent"
+    "battery charge percent",
+    "osx battery"
   ],
   "author": "E.A.Soto, easoto@iss-pr.com",
   "license": "MIT",
